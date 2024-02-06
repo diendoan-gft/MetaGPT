@@ -1,4 +1,5 @@
 # Use a base image with Python3.9 and Nodejs20 slim version
+# test
 FROM nikolaik/python-nodejs:python3.9-nodejs20-slim
 
 # Install Debian software needed by MetaGPT and clean up in one RUN command to reduce image size
